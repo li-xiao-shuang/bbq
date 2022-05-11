@@ -14,6 +14,7 @@
         <module>client</module>
         <module>register</module>
         <module>store</module>
+        <module>core</module>
     </modules>
 
     <properties>

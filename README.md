@@ -1,19 +1,9 @@
-# Getting Started
+# bbq (barbecue 户外烧烤)
 
-### Reference Documentation
+因为疫情的原因已经很久没有出去玩过了，难得有这个机会宅在家里，还能不被打扰。正好在家里卷起来，学习学习 RocketMQ 的原理。在看源码的过程中我发现，不实际操练下还是学的不够记忆深刻，于是有了造轮子的想法。
 
-For further reference, please consider the following sections:
+可能是因为太久没有吃烧烤了，所以给这个项目起名叫 bbq （bbq是网络流行语，Barbecue的英文缩写）。无论是学习还是造轮子都需要想吃烧烤一样，要一串一串撸，一口是吃不下的。
 
-* [Official Apache Maven documentation](https://maven.apache.org/guides/index.html)
-* [Spring Boot Maven Plugin Reference Guide](https://docs.spring.io/spring-boot/docs/2.6.7/maven-plugin/reference/html/)
-* [Create an OCI image](https://docs.spring.io/spring-boot/docs/2.6.7/maven-plugin/reference/html/#build-image)
-* [Spring Web](https://docs.spring.io/spring-boot/docs/2.6.7/reference/htmlsingle/#boot-features-developing-web-applications)
+bbq 是一个采用计算存储分离式架构的 Message Queue，服务端没有像 RocketMQ 那样使用 netty 来编程，我打算使用常用的 Springboot 来做服务端框架，使用 grpc 来做客户端与服务端之间的通信。
 
-### Guides
-
-The following guides illustrate how to use some features concretely:
-
-* [Building a RESTful Web Service](https://spring.io/guides/gs/rest-service/)
-* [Serving Web Content with Spring MVC](https://spring.io/guides/gs/serving-web-content/)
-* [Building REST services with Spring](https://spring.io/guides/tutorials/bookmarks/)
 
