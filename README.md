@@ -6,6 +6,8 @@
 
 bbq 是一个采用计算存储分离式架构的 Message Queue。服务端没有像 RocketMQ 那样使用 netty 来编程，我打算使用常用的 Springboot 来做服务端框架，使用 grpc 来做客户端与服务端之间的通信。并且对外提供 Open API 来做一些运维操作。
 
+![](https://tva1.sinaimg.cn/large/e6c9d24ely1h25ozhjtavj20wv0u03zy.jpg)
+
 
 
 
